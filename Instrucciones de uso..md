@@ -25,6 +25,7 @@ Nota: La versión utilizada para realizar el programa es la versión R2024b
 
 
 
-NOTA: Sí por alguna razón no funciona la webcam y se tomó una foto con celular donde se aprecié bien la fluorescencia de las sustancia el programa puede funcionar Tambien con imagenes png y jpeg. Funciona de la misma manera como si se tuviera la captura por webcam.
+NOTA 1: Sí por alguna razón no funciona la webcam y se tomó una foto con celular donde se aprecié bien la fluorescencia de las sustancia el programa puede funcionar Tambien con imagenes png y jpeg. Funciona de la misma manera como si se tuviera la captura por webcam.
+NOTA 2: Para mejor toma de datos, despues de tres o más pruebas, se recomienda limpiar la consola de MatLab con el comando "clear all;".
 
 
