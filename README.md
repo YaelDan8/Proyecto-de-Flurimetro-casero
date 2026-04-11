@@ -11,18 +11,18 @@ flowchart TD
 
   A1[Escribir la palabra 'imagen'];
   A2[Seleccionar la imagen a analizar en formato jpeg o jpg preferentemente.];
-  A3[Presionar doble click izquierdo\npara confirmar la región de interés];
+  A3[Presionar doble click izquierdo\npara confirmar la región de interés.];
 
-  B1{¿Se tienen las toolbox?};
-  B2[Se buscan las toolbox desde MATLAB];
-  B3[En el area de home se busca el icono\ncon tres cubos de nombre 'Add-Ons'];
-  B4[Se desplegará un buscador donde se tienen\nque buscar las toolbox para image processing];
-  B5[Se elige la toolbox y se descarga];
+  B1{¿Se tienen las toolboxes &#40librerías&#41?};
+  B2[Se buscan las toolboxes desde MATLAB];
+  B3[En el área de home se busca el icono\ncon tres cubos de nombre 'Add-Ons'.];
+  B4[Se desplegará un buscador donde se tienen\nque buscar las toolbox para image processing.];
+  B5[Se elige la toolbox y se descarga.];
 
   C1{¿Se quiere utilizar\nuna imagen o una webcam?};
 
-  D1[Se crea la ROI utilizando el click izquierdo del mouse\n, arrastrando el cursor dejando el click izquierdo apretado\n, también se puede ajustar el cuadrado de las esquinas marcadas]
-  D2[Esperar a que MATLAB analicé la ROI\nseleccionada en la imagen];
+  D1[Se crea la ROI utilizando el click izquierdo del mouse, arrastrando el cursor dejando el click izquierdo apretado, también se puede ajustar el cuadrado de las esquinas marcadas.]
+  D2[Esperar a que MATLAB analicé la ROI\nseleccionada en la imagen.];
 
   E1[Escribir la palabra 'webcam'];
   E2[Colocar el nùmero de webcam a utilizar\n &#40 leer el nombre de la webcam con el numero asociado por el sistema &#41];
