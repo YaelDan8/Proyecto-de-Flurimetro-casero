@@ -1,6 +1,9 @@
 # Proyecto de construccion de un Espectroflurimetro casero
 En el siguiente repositorio se encuentra el modelo 3D del montaje experimental así como el programa en MatLab para su uso libre (sí no se tienen las librerias descargasdas, matlab arrojará un error con instrucciones de intalación); también estan anexadas las intrucciónes de uso del programa. 
 
+# Montaje experimental en 3D
+En la imagen mostrada se puede apreciar el montaje experimental para llevar acabo la construcción del espectroflurimetro. Una vez construido el espectroflurimetro, en la siguiente sección se muestran los pasos a seguir para utilizar correctamente el codigo de MATLAB.
+![Modeo 3D del montaje experimental del espectrofluorometro](Modelo3D_E3_editado.png)
 
 # Instrucciones de uso del software
 NOTA: Se debe considerar que las toolbox de computer vision, image processing y signal processing, fueron incliudas a partir de la version de MATLAB R2022b, estas toolbox no se enuentran en versiones anteriores de MATLAB.
@@ -14,7 +17,7 @@ flowchart TD
   A3[Presionar doble click izquierdo\npara confirmar la región de interés.];
 
   B1{¿Se tienen las toolboxes &#40librerías&#41?};
-  B2[Se buscan las toolboxes desde MATLAB];
+  B2[Se buscan las toolboxes desde MATLAB.];
   B3[En el área de home se busca el icono\ncon tres cubos de nombre 'Add-Ons'.];
   B4[Se desplegará un buscador donde se tienen\nque buscar las toolbox para image processing.];
   B5[Se elige la toolbox y se descarga.];
@@ -25,12 +28,12 @@ flowchart TD
   D2[Esperar a que MATLAB analicé la ROI\nseleccionada en la imagen.];
 
   E1[Escribir la palabra 'webcam'];
-  E2[Colocar el nùmero de webcam a utilizar\n &#40 leer el nombre de la webcam con el numero asociado por el sistema &#41];
+  E2[Colocar el número de webcam a utilizar\n &#40 leer el nombre de la webcam con el numero asociado por el sistema &#41];
 
-  F1[Se pueden guardar los datos];
-  F2[Usar 'clear all' para resetear la consola];
+  F1[Se toma una captura de pantalla para guardar los datos.];
+  F2[Usar 'clear all' para resetear la consola.];
 
-  G[Se obtiene el color, el valor en longitud de onda\ny la gráfica con su respectiva intensidad];
+  G[Se obtiene el color, el valor en longitud de onda\ny la gráfica con su respectiva intensidad.];
 
   End([FIN]);
 
