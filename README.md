@@ -24,8 +24,8 @@ flowchart TD
 
   C1{¿Se quiere utilizar\nuna imagen o una webcam?};
 
-  D1[Se crea la ROI utilizando el click izquierdo del mouse, arrastrando el cursor dejando el click izquierdo apretado, también se puede ajustar el cuadrado de las esquinas marcadas.]
-  D2[Esperar a que MATLAB analicé la ROI\nseleccionada en la imagen.];
+  D1[Se crea la ROI utilizando el click izquierdo del mouse, arrastrando el cursor dejando apretado el click izquierdo , también se puede ajustar el cuadrado de las esquinas marcadas.]
+  D2[Esperar a que MATLAB analice la ROI\nseleccionada en la imagen.];
 
   E1[Escribir la palabra 'webcam'];
   E2[Colocar el número de webcam a utilizar\n &#40 leer el nombre de la webcam con el numero asociado por el sistema &#41];
